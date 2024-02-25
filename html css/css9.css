@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    min-height: 500vh;
+    max-width: 100vw;
+    background-color: rgba(0, 0, 255, 0.614);
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    height: 15vh;
+    background-color: pink;
+    width: 100%;
+}

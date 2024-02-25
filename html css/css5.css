@@ -1,0 +1,21 @@
+
+input[type="text"]{
+    margin-bottom: 20px;
+    width: 20px;
+    /* background-color: black; */
+    color: wheat;
+    border: none;
+    border-bottom: 1px solid;
+}
+input[id="prezime"]{
+    width: 400px;
+    /* background-color: red; */
+    border: none;
+    border-bottom: 1px solid;
+    outline: auto;
+    /* color: red; */
+}
+input[id="prezime"]:focus {
+    border-bottom: 2px solid orange;
+    background-color: transparent;
+}

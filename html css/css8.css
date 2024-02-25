@@ -1,0 +1,38 @@
+.sto{
+    height: 700px;
+    width: 300px;
+    background-color: green;
+    margin-left: 400px;
+    position: relative;
+}
+.krug{
+    height: 50px; 
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black; 
+}
+.krug1{
+    top: -10px;
+    left: -10px;
+}
+.krug2{
+    top: -15px;
+    right: -15px;
+}
+.krug3{
+    top: 45%;
+    left: -15px;
+}
+.krug4{
+    top: 45%;
+    right: -15px;
+}
+.krug5{
+    bottom: -15px;
+    left: -15px;
+}
+.krug6{
+    bottom: -15px;
+    right: -15px;
+}

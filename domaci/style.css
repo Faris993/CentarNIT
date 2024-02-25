@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: dimgray;
+}
+
+#cat-fact {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#get-fact-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid blue;
+    background-color: aqua;
+}
+

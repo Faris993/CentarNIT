@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+ border-bottom: 2px solid rgb(216, 17, 17);
+}
+.sredisnji{
+    /* border-bottom: 2px solid rgb(235, 29, 29); */
+    width: 800px;
+    margin: 0px auto;
+}
+.logo-i-linkovi{
+    display: flex;
+    padding-top: 8px;
+}
+#logo{
+    flex-grow: 1;
+}
+#linkovi{
+    flex-grow: 1;
+    text-align: right;
+}
+#navigacija{
+    display: flex;
+}
+#navigacija a{
+    flex-grow: 1;
+    display: block;
+    padding:  10px 30px;
+    text-decoration: none;
+    color: rgb(134, 132, 132);
+    font-size: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+#navigacija a:hover{
+    background-color: rgb(93, 92, 92);
+    color: aliceblue;
+}
+#navigacija a.active{
+    background-color: rgb(28, 28, 28);
+    color: black;
+}
+#linkovi a img{
+    width: 24px;
+    height: 24px;
+}
+#logo img{
+    width: 60px;
+    height: 30px;
+}
+.page{
+    height: 100vh; 
+}
+#stranica2{
+    background-image: url(pexels-photo-1032650.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+#stranica2 .blokParagraf{
+background-color: rgba(222, 123, 24, 0.232);
+padding: 30px;
+font-size: 24px;
+border: 1px solid rgba(140, 50, 50, 0.64) ;
+}
+#stranica2 .sredisnji{
+    height: 100vh;
+}
+#stranica2 .sredisnji h2{
+    margin-bottom: 35;
+    font-size: 40px;
+}
+#stranica2 .sredisnji{
+    display: flex;
+    align-items: center;
+}
+#stranica3{
+    background-image: url(fishing.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+.textCentar {
+    text-align: center;
+    
+}
+#stranica3 .sredisnji h3{
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: rgb(175, 175, 12);
+}
+#stranica3 .sredisnji p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.krugovi {
+    /* border: 10px solid rgb(23, 224, 107); */
+    color: red;
+    display: flex;
+    height: 300px;
+}
+.krugoviItekst {
+    flex-grow: 1;
+    border: 3px solid gold;
+    border-radius: 200px;
+    text-align: center;
+    margin-left: 10px;
+}

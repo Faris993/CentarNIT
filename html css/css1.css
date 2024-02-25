@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.navigacija{
+    color: rgb(72, 130, 14);
+    background-color: chartreuse;
+    height: 60px;
+    padding: 30px;
+}
+.navigacija a {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    /* height: 50px; */
+    /* background-color: cornsilk; */
+    padding: 8px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(22, 126, 135);
+    transition: 0.5s;
+}
+.navigacija a:visited{
+    color: rgb(24, 160, 119);
+}
+.navigacija a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.div a{
+    height: 50px;
+    width: 50px;
+    display: block;
+    font-size: 20px;
+    transition: 1s;
+    margin-top: auto;
+    color: wheat;
+    text-decoration: none;
+}
+.div a:hover{
+    background-color: darkgreen;
+    color: beige;
+}

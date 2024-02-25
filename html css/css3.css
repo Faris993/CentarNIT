@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+.naslov{
+    text-align: center;
+}
+.prvaLista{
+    background-color: red;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+    margin-right: 300px;
+}
+.drugaLista{
+    background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    width: 300px;
+    display: inline-block;
+}
+.prvaLista ul {
+    list-style-type: square;
+    line-height: 30px;
+}
+.drugaLista ol {
+    list-style-type: decimal-leading-zero;
+}
+.div3{
+    height: 300px;
+    width: 300px;
+    background-image: url(js.png);
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+}

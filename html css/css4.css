@@ -1,0 +1,81 @@
+*{
+margin: 0px;
+padding: 0px;
+} 
+/* body{
+    background-color:black;
+}
+.divRoditelj{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.decaDiv{
+    border: 3px solid rgb(25, 14, 176);
+    flex-grow: 1;
+    /* width: 800px;
+    height: 50px; */
+/* }  */
+.horizontalnanavigacija{
+    background-color: gray;
+    height: 80px;
+    text-align: center;
+}
+.roditelj{
+    background-color: black;
+    width: 100vw;
+    height: 800px;
+    display: flex;
+}
+.roditelj a{
+    color: white;
+}
+.vertikalnanavigacija{
+    width: 200px;
+    flex-grow: 1;
+    background-color: black;
+}
+.sadrzaj{
+    flex-grow: 4;
+    text-align: center;
+    color: azure;
+}
+.vertikalnanavigacija a{
+    display: block;
+    color: black;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 2px;
+    /* border-bottom: 3px solid black; */
+    transition: 1s;
+}
+.vertikalnanavigacija a:visited{
+    color: aqua;
+}
+.vertikalnanavigacija a:hover{
+    width: 50px;
+    color: white;
+    padding-left: 5px;
+}
+.sadrzaj .div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.sadrzaj .div1 .dete{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 150px;
+    border: 3px solid white;
+}
